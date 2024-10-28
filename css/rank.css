@@ -1,0 +1,42 @@
+/* up button */
+b.up
+{
+cursor: pointer;
+float: right;
+}
+b.up:hover {color: var(--fg1);}
+
+/* down button */
+b.down
+{
+cursor: pointer;
+float: right;
+}
+b.down:hover {color: var(--fg1);}
+
+/* shows the rank of the element */
+font.rankDisp
+{
+position: absolute;
+color: var(--fg1);
+}
+
+/* Container div for Rank, HTML form rank selector */
+.rankContainer
+{
+position: relative;
+width: 412px; height: auto;
+border: 4px var(--bg0) solid;
+padding: 1px;
+}
+
+/* Rankable element div for Rank, HTML form rank  */
+.rankElement
+{
+position: relative;
+width: 400px; height: auto;
+margin: 3px;
+padding: 3px;
+background: var(--bg0);
+color: var(--fg0);
+}
