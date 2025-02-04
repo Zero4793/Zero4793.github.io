@@ -1,14 +1,15 @@
 /* colours */
 :root{
-	--bg0: #222;
-	--bg1: #333;
-	--fg0: #aaa;
-	--fg1: #ccc;
-	--hl1: #c8c;
-	--hl2: #a6a;
-	--ERR: #f44;
-	--WIN: #4d4;
-	--GOLD: #fa0;
+	color-scheme: light dark;
+	--bg0: light-dark(#aaa, #222);
+	--bg1: light-dark(#ccc, #333);
+	--fg0: light-dark(#222, #aaa);
+	--fg1: light-dark(#333, #ccc);
+	--hl1: light-dark(#a2a, #c8c);
+	--hl2: light-dark(#808, #a6a);
+	--ERR: light-dark(#f00, #f44);
+	--WIN: light-dark(#2e2, #4d4);
+	--GOLD: light-dark(#fe6, #fa0);
 }
 
 body{
