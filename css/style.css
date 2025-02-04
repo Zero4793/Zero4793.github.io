@@ -4,6 +4,8 @@
 	--bg1: #333;
 	--fg0: #aaa;
 	--fg1: #ccc;
+	--hl1: #c8c;
+	--hl2: #a6a;
 	--ERR: #f44;
 	--WIN: #4d4;
 	--GOLD: #fa0;
@@ -34,6 +36,17 @@ h1{
 	background-color: var(--bg0);
 	border-radius: 12px;
 	margin: 20px 10px 10px;
+}
+h2{
+	font-size: 20px;
+	margin: 5px 0px;
+}
+
+a{
+	color: var(--hl1);
+}
+a:visited{
+	color: var(--hl2);
 }
 
 main{
@@ -86,9 +99,6 @@ main section p{
 form label{
 	display: block;
 	margin: 20px 0px -10px;
-}
-#geek_register input{
-	margin-top: 15px;
 }
 
 #errors {

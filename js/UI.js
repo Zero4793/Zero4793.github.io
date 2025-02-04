@@ -14,6 +14,8 @@ function toggleMode() {
 		document.documentElement.style.setProperty('--bg1', '#ccc');
 		document.documentElement.style.setProperty('--fg0', '#222');
 		document.documentElement.style.setProperty('--fg1', '#333');
+		document.documentElement.style.setProperty('--hl1', '#a2a');
+		document.documentElement.style.setProperty('--hl2', '#808');
 		document.documentElement.style.setProperty('--ERR', '#f00');
 		document.documentElement.style.setProperty('--WIN', '#2e2');
 		document.documentElement.style.setProperty('--GOLD', '#fe6');
@@ -28,6 +30,8 @@ function toggleMode() {
 		document.documentElement.style.setProperty('--bg1', '#333');
 		document.documentElement.style.setProperty('--fg0', '#aaa');
 		document.documentElement.style.setProperty('--fg1', '#ccc');
+		document.documentElement.style.setProperty('--hl1', '#c8c');
+		document.documentElement.style.setProperty('--hl2', '#a6a');
 		document.documentElement.style.setProperty('--ERR', '#f44');
 		document.documentElement.style.setProperty('--WIN', '#4d4');
 		document.documentElement.style.setProperty('--GOLD', '#fa0');

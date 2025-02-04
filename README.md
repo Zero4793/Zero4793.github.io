@@ -1,3 +1,3 @@
 # Zero4793.github.io
 
-My personal site. Resume and possibly Digital Garden.
+My personal site. Port Folio, Resume, and more!
